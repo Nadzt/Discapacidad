@@ -1,0 +1,17 @@
+.header {
+    height: 90vh;
+    grid-column: 1/-1;
+    grid-row: 1 / 2;
+
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    // background
+    background-size: cover;
+    background-image: 
+       linear-gradient( rgba($color-secondary, .8), rgba($color-secondary, .8) ),
+       url(../img/header.jpg);
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    background-position: top;
+
+    }
